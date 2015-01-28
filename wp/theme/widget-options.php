@@ -107,8 +107,8 @@ class FacetingOptionsWidget extends \WP_Widget {
 
 				echo '<aside id="facet-' . $type . '-available" class="widget facets facets-available" ' . $style . '>';
 
-				echo '<h3 class="widget-title"><span class="widget-title-inner">' . ($settings['name'] == 'post_type' ? 'Content Type' : $settings['name']) . '</span></h3>';
-
+				echo '<h3 class="widget-title"><span class="widget-title-inner">' . ($settings['name'] == 'post_type' ? __('Content Type', 'elasticsearch') : $settings['name']) . '</span></h3>';
+				
 				if($async){
 					echo '<p class="facet-empty" style="display:none">You can not filter the results anymore.</p>';
 				}
@@ -119,7 +119,9 @@ class FacetingOptionsWidget extends \WP_Widget {
 					$style = $avail['option']['count'] < $wp_query->found_posts ? '' : 'style="display:none"';
 
 					echo '<li id="facet-' . $type . '-' . $avail['option']['slug'] . '" class="facet-item" ' . $style . '>';
-
+					
+					if($avail['option']['name'] == 'Media')
+						$avail['option']['name'] = __('Media', 'elasticsearch');
 					if($async){
 						printf('<input type="checkbox" name="es[%s][and][]" value="%s" />%s <span class="count">(%d)</span>', $type, $avail['option']['slug'],
 							$avail['option']['name'], $avail['option']['count']);

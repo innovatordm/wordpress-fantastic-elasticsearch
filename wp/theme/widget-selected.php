@@ -92,9 +92,9 @@ class FactingSelectedWidget extends \WP_Widget {
 						
 						if($isremovable){
 							echo ' style="display:none" class="facet-item removable">';
-							echo '<a href="#facet-' . $type . '-' . $option['slug'] . '">' . ($name == 'post_type' ? 'Content Type' : $name) . ': ' . $option['name'] . '</a>';
+							echo '<a href="#facet-' . $type . '-' . $option['slug'] . '">' . ($name == 'post_type' ? __('Content Type', 'elasticsearch') : $name) . ': ' . $option['name'] . '</a>';
 						}else{
-							echo 'class="facet-item">' . ($name == 'post_type' ? 'Content Type' : $name) . ': ' . $option['name'];
+							echo 'class="facet-item">' . ($name == 'post_type' ? __('Content Type', 'elasticsearch') : $name) . ': ' . $option['name'];
 						}
 
 						echo '</li>';
@@ -116,7 +116,7 @@ class FactingSelectedWidget extends \WP_Widget {
 
 					echo '<aside id="facet-' . $type . '-selected" class="widget facets facets-selected">';
 
-					echo '<h3 class="widget-title"><span class="widget-title-inner">' . $name . '</span></h3>';
+					echo '<h3 class="widget-title"><span class="widget-title-inner">' . ($name == 'post_type' ? __('Content Type', 'elasticsearch') : $name) . '</span></h3>';
 
 					echo '<ul>';
 
@@ -126,7 +126,8 @@ class FactingSelectedWidget extends \WP_Widget {
 						$isremovable = $this->isremoveable($option['slug']);
 
 						echo '<li id="facet-' . $type . '-' . $option['slug'] . '" class="facet-item">';
-
+						if($option['name'] == 'Media')
+							$option['name'] = __('Media', 'elasticsearch');
 						if($isremovable){
 							echo '<a href="' . $url . '">' . $option['name'] . '</a>';
 						}else{

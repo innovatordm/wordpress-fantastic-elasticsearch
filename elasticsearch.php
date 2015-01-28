@@ -54,6 +54,15 @@ require 'wp/theme/widget-options.php';
 require 'wp/theme/widget-selected.php';
 require 'wp/admin/hooks.php';
 
+/**
+ * Load plugin textdomain.
+ *
+ * @since 1.0.0
+ */
+add_action( 'plugins_loaded', function() {
+	load_plugin_textdomain( 'elasticsearch', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' ); 
+});
+
 add_action( 'admin_enqueue_scripts', function() {
 	wp_register_style( 'custom_wp_admin_css', plugins_url('wp/css/admin.css', __FILE__) );
 	wp_enqueue_style( 'custom_wp_admin_css' );
