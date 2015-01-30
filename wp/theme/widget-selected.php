@@ -114,6 +114,9 @@ class FactingSelectedWidget extends \WP_Widget {
 						$name = get_taxonomy($type)->label;
 					}
 
+					if($name == 'assoc_id')
+						$name = __('Association', 'elasticsearch');
+
 					echo '<aside id="facet-' . $type . '-selected" class="widget facets facets-selected">';
 
 					echo '<h3 class="widget-title"><span class="widget-title-inner">' . ($name == 'post_type' ? __('Content Type', 'elasticsearch') : $name) . '</span></h3>';
@@ -128,6 +131,8 @@ class FactingSelectedWidget extends \WP_Widget {
 						echo '<li id="facet-' . $type . '-' . $option['slug'] . '" class="facet-item">';
 						if($option['name'] == 'Media')
 							$option['name'] = __('Media', 'elasticsearch');
+						if($option['name'] == 'assoc_id')
+							$name = __('Association', 'elasticsearch');
 						if($isremovable){
 							echo '<a href="' . $url . '">' . $option['name'] . '</a>';
 						}else{
