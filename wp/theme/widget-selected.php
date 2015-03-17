@@ -116,6 +116,8 @@ class FactingSelectedWidget extends \WP_Widget {
 
 					if($name == 'assoc_id')
 						$name = __('Association', 'elasticsearch');
+					if($name == 'Media')
+						$name = __('Media', 'elasticsearch');
 
 					echo '<aside id="facet-' . $type . '-selected" class="widget facets facets-selected">';
 

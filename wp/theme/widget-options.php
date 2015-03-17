@@ -109,6 +109,8 @@ class FacetingOptionsWidget extends \WP_Widget {
 				
 				if($settings['name'] == 'assoc_id')
 						$settings['name'] = __('Association', 'elasticsearch');
+				if($settings['name'] == 'Media')
+						$settings['name'] = __('Media', 'elasticsearch');	
 				echo '<h3 class="widget-title"><span class="widget-title-inner">' . ($settings['name'] == 'post_type' ? __('Content Type', 'elasticsearch') : $settings['name']) . '</span></h3>';
 				
 				if($async){
@@ -118,6 +120,10 @@ class FacetingOptionsWidget extends \WP_Widget {
 				echo '<ul>';
 
 				foreach($settings['avail'] as $avail){
+
+					if($avail['option']['name'] == 'Media')
+						$avail['option']['name'] = __('Media', 'elasticsearch');
+
 					$style = $avail['option']['count'] < $wp_query->found_posts ? '' : 'style="display:none"';
 
 					echo '<li id="facet-' . $type . '-' . $avail['option']['slug'] . '" class="facet-item" ' . $style . '>';
