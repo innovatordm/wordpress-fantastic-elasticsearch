@@ -1,0 +1,787 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bygdeband Search Config v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-01-30 08:41:49+0000\n"
+"Last-Translator: kristofferbergman <kristoffer.bergman@innovator.se>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: wp/lib/nhp/nhp-options.php:26
+#@ nhp-opts
+msgid "A Section added by hook"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:27
+#@ nhp-opts
+msgid "<p class=\"description\">This is a section created by adding a filter to the sections array, great to allow child themes, to add/remove sections from the options.</p>"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:85
+#@ nhp-opts
+msgid "<p>This is the HTML which can be displayed before the form, it isnt required, but more info is always better. Anything goes in terms of markup here, any HTML.</p>"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:109
+#@ nhp-opts
+msgid "Theme Options"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:112
+#@ nhp-opts
+msgid "Twenty Eleven Theme Options"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:139
+#@ nhp-opts
+msgid "Theme Information 1"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:140
+#: wp/lib/nhp/nhp-options.php:145
+#@ nhp-opts
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:144
+#@ nhp-opts
+msgid "Theme Information 2"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:149
+#@ nhp-opts
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:156
+#@ nhp-opts
+msgid "Getting Started"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:157
+#@ nhp-opts
+msgid "<p class=\"description\">This is the description field for the Section. HTML is allowed</p>"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:168
+#@ nhp-opts
+msgid "Text Fields"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:169
+#@ nhp-opts
+msgid "<p class=\"description\">This is the Description. Again HTML is allowed2</p>"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:175
+#@ nhp-opts
+msgid "Text Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:176
+#: wp/lib/nhp/nhp-options.php:187
+#: wp/lib/nhp/nhp-options.php:197
+#@ nhp-opts
+msgid "This is a little space under the Field Title in the Options table, additonal info is good in here."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:177
+#: wp/lib/nhp/nhp-options.php:188
+#: wp/lib/nhp/nhp-options.php:198
+#: wp/lib/nhp/nhp-options.php:205
+#: wp/lib/nhp/nhp-options.php:214
+#: wp/lib/nhp/nhp-options.php:224
+#: wp/lib/nhp/nhp-options.php:234
+#: wp/lib/nhp/nhp-options.php:243
+#: wp/lib/nhp/nhp-options.php:253
+#: wp/lib/nhp/nhp-options.php:263
+#: wp/lib/nhp/nhp-options.php:272
+#: wp/lib/nhp/nhp-options.php:281
+#: wp/lib/nhp/nhp-options.php:290
+#: wp/lib/nhp/nhp-options.php:300
+#: wp/lib/nhp/nhp-options.php:308
+#: wp/lib/nhp/nhp-options.php:317
+#: wp/lib/nhp/nhp-options.php:332
+#: wp/lib/nhp/nhp-options.php:340
+#: wp/lib/nhp/nhp-options.php:349
+#: wp/lib/nhp/nhp-options.php:358
+#: wp/lib/nhp/nhp-options.php:392
+#: wp/lib/nhp/nhp-options.php:401
+#: wp/lib/nhp/nhp-options.php:417
+#: wp/lib/nhp/nhp-options.php:425
+#: wp/lib/nhp/nhp-options.php:433
+#: wp/lib/nhp/nhp-options.php:440
+#: wp/lib/nhp/nhp-options.php:449
+#: wp/lib/nhp/nhp-options.php:586
+#: wp/lib/nhp/nhp-options.php:597
+#: wp/lib/nhp/nhp-options.php:609
+#@ nhp-opts
+msgid "This is the description field, again good for additional info."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:186
+#@ nhp-opts
+msgid "Text Option - Email Validated"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:196
+#@ nhp-opts
+msgid "Multi Text Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:203
+#@ nhp-opts
+msgid "Text Option - URL Validated"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:204
+#@ nhp-opts
+msgid "This must be a URL."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:212
+#@ nhp-opts
+msgid "Text Option - Numeric Validated"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:213
+#@ nhp-opts
+msgid "This must be numeric."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:222
+#@ nhp-opts
+msgid "Text Option - Comma Numeric Validated"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:223
+#@ nhp-opts
+msgid "This must be a comma seperated string of numerical values."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:232
+#@ nhp-opts
+msgid "Text Option - No Special Chars Validated"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:233
+#@ nhp-opts
+msgid "This must be a alpha numeric only."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:241
+#@ nhp-opts
+msgid "Text Option - Str Replace Validated"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:242
+#: wp/lib/nhp/nhp-options.php:252
+#: wp/lib/nhp/nhp-options.php:262
+#@ nhp-opts
+msgid "You decide."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:251
+#@ nhp-opts
+msgid "Text Option - Preg Replace Validated"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:261
+#@ nhp-opts
+msgid "Text Option - Custom Callback Validated"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:270
+#@ nhp-opts
+msgid "Textarea Option - No HTML Validated"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:271
+#@ nhp-opts
+msgid "All HTML will be stripped"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:279
+#@ nhp-opts
+msgid "Textarea Option - HTML Validated"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:280
+#@ nhp-opts
+msgid "HTML Allowed (wp_kses)"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:288
+#@ nhp-opts
+msgid "Textarea Option - HTML Validated Custom"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:289
+#@ nhp-opts
+msgid "Custom HTML Allowed (wp_kses)"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:298
+#@ nhp-opts
+msgid "Textarea Option - JS Validated"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:299
+#@ nhp-opts
+msgid "JS will be escaped"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:306
+#@ nhp-opts
+msgid "Editor Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:307
+#: wp/lib/nhp/nhp-options.php:316
+#@ nhp-opts
+msgid "Can also use the validation methods if required"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:315
+#@ nhp-opts
+msgid "Editor Option 2"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:324
+#@ nhp-opts
+msgid "Radio/Checkbox Fields"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:325
+#: wp/lib/nhp/nhp-options.php:385
+#: wp/lib/nhp/nhp-options.php:410
+#: wp/lib/nhp/nhp-options.php:579
+#@ nhp-opts
+msgid "<p class=\"description\">This is the Description. Again HTML is allowed</p>"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:330
+#@ nhp-opts
+msgid "Checkbox Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:331
+#: wp/lib/nhp/nhp-options.php:339
+#: wp/lib/nhp/nhp-options.php:348
+#: wp/lib/nhp/nhp-options.php:357
+#: wp/lib/nhp/nhp-options.php:371
+#: wp/lib/nhp/nhp-options.php:391
+#: wp/lib/nhp/nhp-options.php:400
+#: wp/lib/nhp/nhp-options.php:432
+#: wp/lib/nhp/nhp-options.php:439
+#: wp/lib/nhp/nhp-options.php:448
+#: wp/lib/nhp/nhp-options.php:455
+#: wp/lib/nhp/nhp-options.php:463
+#: wp/lib/nhp/nhp-options.php:471
+#: wp/lib/nhp/nhp-options.php:479
+#: wp/lib/nhp/nhp-options.php:487
+#: wp/lib/nhp/nhp-options.php:495
+#: wp/lib/nhp/nhp-options.php:503
+#: wp/lib/nhp/nhp-options.php:511
+#: wp/lib/nhp/nhp-options.php:519
+#: wp/lib/nhp/nhp-options.php:527
+#: wp/lib/nhp/nhp-options.php:540
+#: wp/lib/nhp/nhp-options.php:547
+#: wp/lib/nhp/nhp-options.php:554
+#@ nhp-opts
+msgid "No validation can be done on this field type"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:338
+#@ nhp-opts
+msgid "Multi Checkbox Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:347
+#@ nhp-opts
+msgid "Radio Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:356
+#@ nhp-opts
+msgid "Radio Image Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:370
+#@ nhp-opts
+msgid "Radio Image Option For Layout"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:372
+#@ nhp-opts
+msgid "This uses some of the built in images, you can use them for layout options."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:384
+#@ nhp-opts
+msgid "Select Fields"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:390
+#@ nhp-opts
+msgid "Select Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:399
+#@ nhp-opts
+msgid "Multi Select Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:409
+#@ nhp-opts
+msgid "Custom Fields"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:415
+#@ nhp-opts
+msgid "Color Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:416
+#: wp/lib/nhp/nhp-options.php:424
+#@ nhp-opts
+msgid "Only color validation can be done on this field type"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:423
+#@ nhp-opts
+msgid "Color Gradient Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:431
+#@ nhp-opts
+msgid "Date Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:438
+#@ nhp-opts
+msgid "Button Set Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:447
+#@ nhp-opts
+msgid "Upload Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:454
+#@ nhp-opts
+msgid "Pages Select Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:456
+#@ nhp-opts
+msgid "This field creates a drop down menu of all the sites pages."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:462
+#@ nhp-opts
+msgid "Pages Multiple Select Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:464
+#@ nhp-opts
+msgid "This field creates a Multi Select menu of all the sites pages."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:470
+#@ nhp-opts
+msgid "Posts Select Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:472
+#@ nhp-opts
+msgid "This field creates a drop down menu of all the sites posts."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:478
+#@ nhp-opts
+msgid "Posts Multiple Select Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:480
+#@ nhp-opts
+msgid "This field creates a Multi Select menu of all the sites posts."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:486
+#@ nhp-opts
+msgid "Tags Select Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:488
+#@ nhp-opts
+msgid "This field creates a drop down menu of all the sites tags."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:494
+#@ nhp-opts
+msgid "Tags Multiple Select Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:496
+#@ nhp-opts
+msgid "This field creates a Multi Select menu of all the sites tags."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:502
+#@ nhp-opts
+msgid "Cats Select Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:504
+#@ nhp-opts
+msgid "This field creates a drop down menu of all the sites cats."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:510
+#@ nhp-opts
+msgid "Cats Multiple Select Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:512
+#@ nhp-opts
+msgid "This field creates a Multi Select menu of all the sites cats."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:518
+#@ nhp-opts
+msgid "Menu Select Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:520
+#@ nhp-opts
+msgid "This field creates a drop down menu of all the sites menus."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:526
+#@ nhp-opts
+msgid "Select Hide Below Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:528
+#@ nhp-opts
+msgid "This field requires certain options to be checked before the below field will be shown."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:539
+#@ nhp-opts
+msgid "Menu Location Select Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:541
+#@ nhp-opts
+msgid "This field creates a drop down menu of all the themes menu locations."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:546
+#@ nhp-opts
+msgid "Checkbox to hide below"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:548
+#@ nhp-opts
+msgid "This field creates a checkbox which will allow the user to use the next setting."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:553
+#@ nhp-opts
+msgid "Post Type Select Option"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:555
+#@ nhp-opts
+msgid "This field creates a drop down menu of all registered post types."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:561
+#@ nhp-opts
+msgid "Custom Field Callback"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:562
+#: wp/lib/nhp/nhp-options.php:570
+#@ nhp-opts
+msgid "This is a completely unique field type"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:563
+#@ nhp-opts
+msgid "This is created with a callback function, so anything goes in this field. Make sure to define the function though."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:569
+#@ nhp-opts
+msgid "Google Webfonts"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:571
+#@ nhp-opts
+msgid "This is a simple implementation of the developer API for Google webfonts. Preview selection will be coming in future releases."
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:578
+#@ nhp-opts
+msgid "Non Value Fields"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:584
+#: wp/lib/nhp/nhp-options.php:595
+#: wp/lib/nhp/nhp-options.php:607
+#@ nhp-opts
+msgid "Text Field"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:585
+#: wp/lib/nhp/nhp-options.php:596
+#: wp/lib/nhp/nhp-options.php:608
+#@ nhp-opts
+msgid "Additional Info"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:602
+#@ nhp-opts
+msgid "<p class=\"description\">This is the info field, if you want to break sections up.</p>"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:634
+#@ nhp-opts
+msgid "<strong>Theme URL:</strong> "
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:635
+#@ nhp-opts
+msgid "<strong>Author:</strong> "
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:636
+#@ nhp-opts
+msgid "<strong>Version:</strong> "
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:638
+#@ nhp-opts
+msgid "<strong>Tags:</strong> "
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:645
+#@ nhp-opts
+msgid "Theme Information"
+msgstr ""
+
+#: wp/lib/nhp/nhp-options.php:652
+#@ nhp-opts
+msgid "Documentation"
+msgstr ""
+
+#: wp/lib/nhp/options/fields/color_gradient/field_color_gradient.php:35
+#@ nhp-opts
+msgid "From:"
+msgstr ""
+
+#: wp/lib/nhp/options/fields/color_gradient/field_color_gradient.php:38
+#@ nhp-opts
+msgid " To:"
+msgstr ""
+
+#: wp/lib/nhp/options/fields/google_webfonts/field_google_webfonts.php:42
+#@ nhp-opts
+msgid "The fonts provided below are free to use custom fonts from the <a href=\"http://www.google.com/webfonts\" target=\"_blank\">Google Web Fonts directory</a>.<br/>Please <a href=\"http://www.google.com/webfonts\" target=\"_blank\">browse the directory</a> to preview a font, then select your choice below."
+msgstr ""
+
+#: wp/lib/nhp/options/fields/multi_text/field_multi_text.php:39
+#: wp/lib/nhp/options/fields/multi_text/field_multi_text.php:46
+#: wp/lib/nhp/options/fields/multi_text/field_multi_text.php:50
+#@ nhp-opts
+msgid "Remove"
+msgstr ""
+
+#: wp/lib/nhp/options/fields/multi_text/field_multi_text.php:54
+#@ nhp-opts
+msgid "Add More"
+msgstr ""
+
+#: wp/lib/nhp/options/fields/upload/field_upload.php:39
+#@ nhp-opts
+msgid "Browse"
+msgstr ""
+
+#: wp/lib/nhp/options/fields/upload/field_upload.php:40
+#@ nhp-opts
+msgid "Remove Upload"
+msgstr ""
+
+#: wp/lib/nhp/options/options.php:48
+#: wp/lib/nhp/options/options.php:50
+#@ nhp-opts
+msgid "Options"
+msgstr ""
+
+#: wp/lib/nhp/options/options.php:246
+#: wp/lib/nhp/options/options.php:247
+#: wp/lib/nhp/options/options.php:683
+#@ nhp-opts
+msgid "Import / Export"
+msgstr ""
+
+#: wp/lib/nhp/options/options.php:276
+#: wp/lib/nhp/options/options.php:277
+#: wp/lib/nhp/options/options.php:703
+#: wp/lib/nhp/options/options.php:786
+#@ nhp-opts
+msgid "Dev Mode Info"
+msgstr ""
+
+#: wp/lib/nhp/options/options.php:332
+#@ nhp-opts
+msgid "Are you sure? Resetting will loose all custom values."
+msgstr ""
+
+#: wp/lib/nhp/options/options.php:649
+#: wp/lib/nhp/options/options.php:811
+#@ nhp-opts
+msgid "Reset to Defaults"
+msgstr ""
+
+#: wp/lib/nhp/options/options.php:655
+#@ nhp-opts
+msgid "<strong>Settings Imported!</strong>"
+msgstr ""
+
+#: wp/lib/nhp/options/options.php:657
+#@ nhp-opts
+msgid "<strong>Settings Saved!</strong>"
+msgstr ""
+
+#: wp/lib/nhp/options/options.php:661
+#@ nhp-opts
+msgid "<strong>Settings have changed!, you should save them!</strong>"
+msgstr ""
+
+#: wp/lib/nhp/options/options.php:662
+#@ nhp-opts
+msgid "<strong><span></span> error(s) were found!</strong>"
+msgstr ""
+
+#: wp/lib/nhp/options/options.php:664
+#@ nhp-opts
+msgid "<strong><span></span> warning(s) were found!</strong>"
+msgstr ""
+
+#: wp/lib/nhp/options/options.php:721
+#@ nhp-opts
+msgid "Import / Export Options"
+msgstr ""
+
+#: wp/lib/nhp/options/options.php:723
+#@ nhp-opts
+msgid "Import Options"
+msgstr ""
+
+#: wp/lib/nhp/options/options.php:731
+#@ nhp-opts
+msgid "Input your backup file below and hit Import to restore your sites options from a backup."
+msgstr ""
+
+#: wp/lib/nhp/options/options.php:744
+#@ nhp-opts
+msgid "Input the URL to another sites options set and hit Import to load the options from that site."
+msgstr ""
+
+#: wp/lib/nhp/options/options.php:754
+#@ nhp-opts
+msgid "Import"
+msgstr ""
+
+#: wp/lib/nhp/options/options.php:754
+#@ nhp-opts
+msgid "WARNING! This will overwrite any existing options, please proceed with caution!"
+msgstr ""
+
+#: wp/lib/nhp/options/options.php:757
+#@ nhp-opts
+msgid "Export Options"
+msgstr ""
+
+#: wp/lib/nhp/options/options.php:759
+#@ nhp-opts
+msgid "Here you can copy/download your themes current option settings. Keep this safe as you can use it as a backup should anything go wrong. Or you can use it to restore your settings on this site (or any other site). You also have the handy option to copy the link to yours sites settings. Which you can then use to duplicate on another site"
+msgstr ""
+
+#: wp/lib/nhp/options/validation/color/validation_color.php:15
+#@ nhp-opts
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: wp/lib/nhp/options/validation/comma_numeric/validation_comma_numeric.php:15
+#@ nhp-opts
+msgid "You must provide a comma seperated list of numerical values for this option."
+msgstr ""
+
+#: wp/lib/nhp/options/validation/date/validation_date.php:15
+#@ nhp-opts
+msgid "This field must be a valid date."
+msgstr ""
+
+#: wp/lib/nhp/options/validation/email/validation_email.php:15
+#@ nhp-opts
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: wp/lib/nhp/options/validation/no_html/validation_no_html.php:15
+#@ nhp-opts
+msgid "You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: wp/lib/nhp/options/validation/no_special_chars/validation_no_special_chars.php:15
+#@ nhp-opts
+msgid "You must not enter any special characters in this field, all special characters have been removed."
+msgstr ""
+
+#: wp/lib/nhp/options/validation/numeric/validation_numeric.php:15
+#@ nhp-opts
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: wp/lib/nhp/options/validation/url/validation_url.php:15
+#@ nhp-opts
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: wp/theme/widget-options.php:112
+#: wp/theme/widget-selected.php:95
+#: wp/theme/widget-selected.php:97
+#: wp/theme/widget-selected.php:122
+#@ elasticsearch
+msgid "Content Type"
+msgstr "Innehållstyp"
+
+#: wp/theme/widget-selected.php:133
+#@ elasticsearch
+msgid "Media"
+msgstr "Bilder och dokument"
+
+#: wp/theme/widget-options.php:111
+#: wp/theme/widget-selected.php:118
+#: wp/theme/widget-selected.php:135
+#@ elasticsearch
+msgid "Association"
+msgstr "Förening"
+
