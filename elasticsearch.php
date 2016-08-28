@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: Fantastic ElasticSearch
-Plugin URI: http://wordpress.org/extend/plugins/fantastic-elasticsearch/
+Plugin Name: Fantastic ElasticSearch (SHF Fork)
+Plugin URI: http://github.com/innovatordm/wordpress-fantastic-elasticsearch.git
 Description: Improve wordpress search performance and accuracy by leveraging an ElasticSearch server.
 Version: 3.1.1
 Author: Paris Holley
